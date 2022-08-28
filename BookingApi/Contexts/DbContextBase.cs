@@ -13,6 +13,7 @@ namespace BookingApi.Context
         public DbSet<Bookings>? Bookings { get; set; }
 
         public DbSet<Opinions>? Opinions { get; set; }
+
         public DbSet<User>? Users { get; set; }
 
 
@@ -20,7 +21,6 @@ namespace BookingApi.Context
         base(options)
         {
         }
-
         protected override void OnModelCreating(ModelBuilder modelbuilder)
         {
             modelbuilder.UseSerialColumns();

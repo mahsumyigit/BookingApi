@@ -1,7 +1,7 @@
 ﻿using System;
 namespace BookingApi.Model.Entity
 {
-    public class Bookings
+    public class Bookings:IEntity
     {
         public int Id { get; set; }
         public int UserID { get; set; }

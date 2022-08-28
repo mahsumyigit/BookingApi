@@ -1,7 +1,7 @@
 ﻿using System;
 namespace BookingApi.Model.Entity
 {
-    public class Apartments
+    public class Apartments:IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

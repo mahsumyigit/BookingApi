@@ -13,6 +13,9 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.6" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
     <PackageReference Include="Npgsql" Version="6.0.6" />
+    <PackageReference Include="FluentValidation" Version="11.2.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,11 +28,34 @@
     <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
     <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL.Design" />
     <None Remove="Npgsql" />
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\Base\" />
+    <None Remove="Repositories\Concrete\" />
+    <None Remove="Repositories\Interfaces\" />
+    <None Remove="Utilities\" />
+    <None Remove="Utilities\GlobalUsing\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Base\" />
+    <None Remove="Services\Concrete\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="FluentValidation" />
+    <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="FluentValidation.AspNetCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="Model\Entity\" />
     <Folder Include="Model\DTOs\" />
     <Folder Include="Contexts\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Base\" />
+    <Folder Include="Repositories\Concrete\" />
+    <Folder Include="Repositories\Interfaces\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Utilities\GlobalUsing\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Base\" />
+    <Folder Include="Services\Concrete\" />
+    <Folder Include="Services\Interfaces\" />
   </ItemGroup>
 </Project>
